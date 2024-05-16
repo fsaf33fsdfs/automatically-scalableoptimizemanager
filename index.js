@@ -1,2 +1,1 @@
-const countOccurrences = (arr, value) =>
-  arr.reduce((a, v) => (v === value ? a + 1 : a), 0);
+const reverseString = (str) => str.split("").reverse().join("");
